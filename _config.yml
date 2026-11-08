@@ -16,7 +16,7 @@ timezone: 'Asia/Shanghai'
 ## 部署到 GitHub Pages 后改成你的实际地址：
 ##   推荐仓库名用 <用户名>.github.io，此时地址为 https://<用户名>.github.io
 ##   若用普通仓库名（如 blog），则改为 https://<用户名>.github.io/blog
-url: https://YOUR_USERNAME.github.io
+url: https://coolengl.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:

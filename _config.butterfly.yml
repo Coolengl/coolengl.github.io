@@ -52,6 +52,7 @@ code_blocks:
 social:
   # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  fab fa-github: https://github.com/Coolengl || Github || '#24292e'
 
 # --------------------------------------
 # Image Settings
@@ -292,10 +293,10 @@ aside:
     enable: true
     description: 欢迎来到我的博客
     button:
-      enable: false
+      enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/YOUR_USERNAME
+      link: https://github.com/Coolengl
   card_announcement:
     enable: true
     content: 你好，欢迎来到我的博客 👋

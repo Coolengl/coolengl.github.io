@@ -20,7 +20,7 @@ npx hexo generate    # 手动生成静态站点到 public/
 ```yaml
 title: 我的博客                       # 站点标题
 author: 博主                         # 你的名字
-url: https://YOUR_USERNAME.github.io # 改成你的 GitHub 用户名
+url: https://coolengl.github.io       # 已按 GitHub 用户名配置
 ```
 
 可选：`_config.butterfly.yml` 里修改头像（`avatar.img`）、社交链接（`social`）、公告等。
@@ -28,18 +28,18 @@ url: https://YOUR_USERNAME.github.io # 改成你的 GitHub 用户名
 
 ### 2. 在 GitHub 创建仓库
 
-推荐仓库名：**`<你的用户名>.github.io`**（例如用户名为 `abc`，仓库名就是 `abc.github.io`）。
-这样博客地址就是 `https://abc.github.io`，不用处理子路径。
+推荐仓库名：**`coolengl.github.io`**（与你的 GitHub 用户名对应）。
+这样博客地址就是 `https://coolengl.github.io`，不用处理子路径。
 
 > 如果你想用普通仓库名（比如 `blog`），需要把 `_config.yml` 的 `url` 改成
-> `https://<用户名>.github.io/blog`，否则样式和链接会 404。
+> `https://coolengl.github.io/blog`，否则样式和链接会 404。
 
 ### 3. 推送代码
 
 在 GitHub 新建**空仓库**（不要勾选 README），然后在本目录执行：
 
 ```bash
-git remote add origin https://github.com/<用户名>/<仓库名>.git
+git remote add origin git@github.com:Coolengl/coolengl.github.io.git
 git branch -M main
 git push -u origin main
 ```
@@ -55,7 +55,7 @@ git push -u origin main
 - **Source** 选择 **GitHub Actions**（不要选 Deploy from a branch）
 
 然后到 **Actions** 标签页，最新的 `Deploy Hexo to GitHub Pages` 运行完成后，
-访问 `https://<用户名>.github.io` 即可。
+访问 `https://coolengl.github.io` 即可。
 
 ### 5. 以后发布文章
 
