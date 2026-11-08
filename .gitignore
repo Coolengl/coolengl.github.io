@@ -1,0 +1,13 @@
+# 依赖与构建产物（不要提交）
+node_modules/
+public/
+.deploy_git/
+db.json
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 多环境配置（可选）
+_multiconfig.yml
