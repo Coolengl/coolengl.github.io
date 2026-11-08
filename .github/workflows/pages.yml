@@ -18,8 +18,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # CI 上使用 npm 官方源，避免镜像源在海外构建时的不稳定
+      # lockfile 内为国内镜像地址；CI 用官方源并重写 host，避免海外构建拉取失败
       NPM_CONFIG_REGISTRY: https://registry.npmjs.org
+      NPM_CONFIG_REPLACE_REGISTRY_HOST: always
     steps:
       - name: Checkout
         uses: actions/checkout@v4
