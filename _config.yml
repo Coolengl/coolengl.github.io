@@ -56,6 +56,36 @@ prismjs:
   line_number: true
   tab_replace: ''
 
+# Markdown 渲染（hexo-renderer-markdown-it）
+# 数学公式由 @neilsustc/markdown-it-katex 在构建时渲染为 KaTeX HTML
+markdown:
+  preset: 'default'
+  render:
+    html: true
+    xhtmlOut: false
+    langPrefix: 'language-'
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - name: '@neilsustc/markdown-it-katex'
+      options:
+        throwOnError: false
+  anchors:
+    level: 2
+    collisionSuffix: ''
+    permalink: false
+    permalinkClass: 'header-anchor'
+    permalinkSide: 'left'
+    permalinkSymbol: '¶'
+    case: 0
+    separator: '-'
+  images:
+    lazyload: false
+    prepend_root: false
+    post_asset: false
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
