@@ -99,7 +99,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly
+theme: tranquility
 
 # Deployment
 ## 本站通过 .github/workflows/pages.yml 自动部署到 GitHub Pages，无需在此配置

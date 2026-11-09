@@ -1,7 +1,7 @@
 ---
 title: 关于
 date: 2026-11-08 12:00:00
-type: about
+layout: about
 comments: false
 ---
 
