@@ -60,4 +60,36 @@
   .foot-item {
     margin: 0 12px;
   }
+
+  /* Hero 区域手机适配：缩小字号，隐藏装饰元素 */
+  .wall-title {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+
+  .wall-subtitle {
+    font-size: 22px;
+  }
+
+  .wall-description {
+    font-size: 16px;
+    letter-spacing: 0.12em;
+  }
+
+  .hello-world,
+  .normal-eqt,
+  .poem,
+  .motto {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .wall-title {
+    font-size: 40px;
+  }
+
+  .wall-subtitle {
+    font-size: 18px;
+  }
 }

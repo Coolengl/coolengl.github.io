@@ -6,21 +6,42 @@ email: ""
 logo: "/images/logo.svg"
 color_mode: light
 homepage_mode: blog
+mathjax: true
 
 # 子页：每个子页对应一个文章分类，在导航栏拥有一级入口
 subpage:
   enable: true
   pages:
+    - name: VLN
+      path: vln
+      title: VLN
+      icon: /images/icon/icon-link.svg
+      description: 视觉语言导航
+    - name: 机器学习
+      path: ml
+      title: 机器学习
+      icon: /images/icon/icon-pi.svg
+      description: 机器学习基础与方法
+    - name: 深度学习
+      path: dl
+      title: 深度学习
+      icon: /images/icon/icon-app.svg
+      description: 神经网络与表示学习
+    - name: 强化学习
+      path: rl
+      title: 强化学习
+      icon: /images/icon/icon-event.svg
+      description: 策略、价值与决策
+    - name: 大模型
+      path: llm
+      title: 大模型
+      icon: /images/icon/icon-book.svg
+      description: 大语言模型与多模态
     - name: 随笔
       path: essay
       title: 随笔
       icon: /images/icon/icon-article.svg
       description: 日常记录与思考
-    - name: 论文
-      path: paper
-      title: 论文
-      icon: /images/icon/icon-pi.svg
-      description: 论文阅读与笔记
 
 # 首页个性化内容
 index:

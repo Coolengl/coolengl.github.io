@@ -5,8 +5,8 @@
 # Site
 title: 我的博客
 subtitle: '记录 · 思考 · 分享'
-description: '用 Hexo + Butterfly 搭建的个人博客'
-keywords: 博客,笔记,学习
+description: '记录 VLN、机器学习、深度学习、强化学习与大模型的学习与研究'
+keywords: VLN,视觉语言导航,机器学习,深度学习,强化学习,大模型,论文笔记
 author: 博主
 language: zh-CN
 timezone: 'Asia/Shanghai'
