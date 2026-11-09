@@ -1,5 +1,5 @@
 ---
-title: 测试：Transformer 架构速览
+title: Transformer 架构速览
 date: 2026-11-09 08:30:00
 categories:
   - 深度学习

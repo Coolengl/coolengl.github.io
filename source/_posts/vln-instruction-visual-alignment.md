@@ -1,5 +1,5 @@
 ---
-title: 测试：VLN 中的指令-视觉对齐
+title: VLN 中的指令-视觉对齐
 date: 2026-11-08 15:00:00
 categories:
   - VLN

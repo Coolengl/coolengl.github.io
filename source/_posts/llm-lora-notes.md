@@ -1,5 +1,5 @@
 ---
-title: 测试：大模型 LoRA 微调笔记
+title: 大模型 LoRA 微调笔记
 date: 2026-11-09 09:30:00
 categories:
   - 大模型

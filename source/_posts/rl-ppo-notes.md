@@ -1,5 +1,5 @@
 ---
-title: 测试：PPO 算法核心思路
+title: PPO 算法核心思路
 date: 2026-11-09 09:00:00
 categories:
   - 强化学习
