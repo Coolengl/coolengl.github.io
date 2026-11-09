@@ -35,7 +35,7 @@ index:
 social:
   - name: GitHub
     icon: /images/logo-github.svg
-    url: https://github.com/Coolengl
+    url: https://github.com/lengbai03
 
 # 数组在 Hexo 的深合并中无法用 [] 清空，用 false 关闭整个区块
 contacts: false

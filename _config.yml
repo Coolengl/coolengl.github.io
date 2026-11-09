@@ -13,10 +13,10 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-## 部署到 GitHub Pages 后改成你的实际地址：
-##   推荐仓库名用 <用户名>.github.io，此时地址为 https://<用户名>.github.io
-##   若用普通仓库名（如 blog），则改为 https://<用户名>.github.io/blog
-url: https://coolengl.github.io
+## GitHub 账号已改为 lengbai03。
+## 仓库改名为 lengbai03.github.io 前，临时使用项目子路径：
+url: https://lengbai03.github.io/coolengl.github.io
+## 改名完成后请改为：https://lengbai03.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:

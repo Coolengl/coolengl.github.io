@@ -20,7 +20,7 @@ npx hexo generate    # 手动生成静态站点到 public/
 ```yaml
 title: 我的博客                       # 站点标题
 author: 博主                         # 你的名字
-url: https://coolengl.github.io       # 已按 GitHub 用户名配置
+url: https://lengbai03.github.io     # 已按 GitHub 用户名配置
 ```
 
 可选：`_config.tranquility.yml` 里修改首页文案（`index`）、子页（`subpage.pages`）、社交链接（`social`）、页脚等。
@@ -30,18 +30,18 @@ url: https://coolengl.github.io       # 已按 GitHub 用户名配置
 
 ### 2. 在 GitHub 创建仓库
 
-推荐仓库名：**`coolengl.github.io`**（与你的 GitHub 用户名对应）。
-这样博客地址就是 `https://coolengl.github.io`，不用处理子路径。
+推荐仓库名：**`lengbai03.github.io`**（与你的 GitHub 用户名对应）。
+这样博客地址就是 `https://lengbai03.github.io`，不用处理子路径。
 
 > 如果你想用普通仓库名（比如 `blog`），需要把 `_config.yml` 的 `url` 改成
-> `https://coolengl.github.io/blog`，否则样式和链接会 404。
+> `https://lengbai03.github.io/blog`，否则样式和链接会 404。
 
 ### 3. 推送代码
 
 在 GitHub 新建**空仓库**（不要勾选 README），然后在本目录执行：
 
 ```bash
-git remote add origin git@github.com:Coolengl/coolengl.github.io.git
+git remote add origin git@github.com:lengbai03/lengbai03.github.io.git
 git branch -M main
 git push -u origin main
 ```
@@ -57,7 +57,7 @@ git push -u origin main
 - **Source** 选择 **GitHub Actions**（不要选 Deploy from a branch）
 
 然后到 **Actions** 标签页，最新的 `Deploy Hexo to GitHub Pages` 运行完成后，
-访问 `https://coolengl.github.io` 即可。
+访问 `https://lengbai03.github.io` 即可。
 
 ### 5. 以后发布文章
 
@@ -110,4 +110,5 @@ npx hexo clean && npx hexo server
 
 - 依赖从 `registry.npmmirror.com` 安装（`.npmrc` 已配置）；GitHub Actions 中自动切换为官方源。
 - 文内图片可放在 `source/img/`，Markdown 中用 `/img/xxx.png` 引用。
+- GitHub 账号曾用名 `Coolengl`，现为 `lengbai03`；仓库改名后 `_config.yml` 的 `url` 应为 `https://lengbai03.github.io`。
 - 主题文档：<https://docs.qwrcb.top>（Tranquility）、<https://butterfly.js.org/>（Butterfly）
