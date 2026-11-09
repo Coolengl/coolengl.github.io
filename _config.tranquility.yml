@@ -49,3 +49,7 @@ nav:
 # 相关文章需要 hexo-related-popular-posts 插件，暂不开启
 related_post:
   enable: false
+
+# 暂无带 timeline 字段的文章时关闭，避免空区块撑出大片留白
+timeline:
+  enable: false
