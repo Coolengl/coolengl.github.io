@@ -1,6 +1,6 @@
 # 我的博客
 
-基于 **Hexo 7 + Butterfly 主题** 的静态博客，通过 **GitHub Actions** 自动部署到 **GitHub Pages**。
+基于 **Hexo 8 + Tranquility（致远）主题** 的静态博客，通过 **GitHub Actions** 自动部署到 **GitHub Pages**。
 
 ## 本地常用命令
 
@@ -23,8 +23,10 @@ author: 博主                         # 你的名字
 url: https://coolengl.github.io       # 已按 GitHub 用户名配置
 ```
 
-可选：`_config.butterfly.yml` 里修改头像（`avatar.img`）、社交链接（`social`）、公告等。
-把头像图片放到 `source/img/avatar.jpg`，再设 `avatar.img: /img/avatar.jpg`。
+可选：`_config.tranquility.yml` 里修改首页文案（`index`）、子页（`subpage.pages`）、社交链接（`social`）、页脚等。
+
+> 注意：Hexo 对主题配置的数组是**按下标深合并**的，不能靠 `[]` 清空默认项；
+> 要关闭整个区块（如 `contacts`、`links`）请设置为 `false`。
 
 ### 2. 在 GitHub 创建仓库
 
@@ -69,25 +71,43 @@ git push
 
 推送后 GitHub Actions 会自动构建并发布，无需本地 generate。
 
+文章要归入哪个「子页」，`categories` 必须和 `_config.tranquility.yml` 里子页的 `name` 一致：
+
+```yaml
+categories:
+  - 随笔     # 或 论文
+```
+
 ## 目录结构
 
 ```
 .
-├── _config.yml              # Hexo 站点配置（标题、url、作者等）
-├── _config.butterfly.yml    # Butterfly 主题配置（菜单、头像、公告等）
+├── _config.yml                # Hexo 站点配置（标题、url、作者等）
+├── _config.tranquility.yml    # 当前主题 Tranquility 配置（首页、子页、社交等）
+├── _config.butterfly.yml      # Butterfly 配置（保留，切回时使用）
 ├── source/
-│   ├── _posts/              # 文章（Markdown）
-│   ├── about/               # 关于页
-│   ├── tags/                # 标签页
-│   ├── categories/          # 分类页
-│   └── img/                 # 图片资源
-├── themes/                  # 本地主题（本项目主题由 npm 安装）
+│   ├── _posts/                # 文章（Markdown）
+│   ├── about/                 # 关于页（layout: about）
+│   └── img/                   # 图片资源
 ├── .github/workflows/pages.yml  # 自动部署工作流
 └── package.json
+```
+
+## 切换主题
+
+当前使用 Tranquility；想换回 Butterfly：
+
+```bash
+# 1. _config.yml 改回 theme: butterfly
+# 2. 恢复被 Tranquility 移除的分类/归档生成器和页面
+npm install hexo-generator-category hexo-generator-archive --save
+git checkout 7044ae5 -- source/tags/index.md source/categories/index.md
+# 3. 重新构建
+npx hexo clean && npx hexo server
 ```
 
 ## 说明
 
 - 依赖从 `registry.npmmirror.com` 安装（`.npmrc` 已配置）；GitHub Actions 中自动切换为官方源。
 - 文内图片可放在 `source/img/`，Markdown 中用 `/img/xxx.png` 引用。
-- 主题文档：<https://butterfly.js.org/>
+- 主题文档：<https://docs.qwrcb.top>（Tranquility）、<https://butterfly.js.org/>（Butterfly）
