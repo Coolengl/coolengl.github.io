@@ -7,7 +7,7 @@ title: 我的博客
 subtitle: '记录 · 思考 · 分享'
 description: '记录 VLN、机器学习、深度学习、强化学习与大模型的学习与研究'
 keywords: VLN,视觉语言导航,机器学习,深度学习,强化学习,大模型,论文笔记
-author: 博主
+author: lengbai03
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: tranquility
+theme: butterfly
 
 # Deployment
 ## 本站通过 .github/workflows/pages.yml 自动部署到 GitHub Pages，无需在此配置
