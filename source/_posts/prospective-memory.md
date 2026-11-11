@@ -48,7 +48,7 @@ PM 还有三个典型特征：意图形成与执行之间存在**延迟**；执�
 
 PM 研究中最经典的实验室范式，是 Einstein 和 McDaniel（1990）建立的事件型范式。参与者先做一项持续的“进行中任务”，比如词汇判断：屏幕上依次出现字母串，判断它是真词还是非词。与此同时，他们被赋予一个 PM 任务：看到某个预先指定的目标（例如字母 T，或单词 tortoise）时，按下 PM 反应键。
 
-[![图 1：经典事件型前瞻记忆范式](/images/prospective_memory/fig1_classic_paradigm.svg)](/images/prospective_memory/fig1_classic_paradigm.svg)
+[![图 1：经典事件型前瞻记忆范式](/images/prospective_memory/fig1_classic_paradigm.png)](/images/prospective_memory/fig1_classic_paradigm.png)
 
 *图 1：经典事件型前瞻记忆范式。PM 任务被嵌入 ongoing task；目标出现时，参与者需要打断当前任务并执行 PM 反应。（原创示意，据 Einstein & McDaniel, 1990 重绘）*
 
@@ -160,7 +160,7 @@ PM 研究中最经典的实验室范式，是 Einstein 和 McDaniel（1990）建
 
 先看一张总图：PM 失败可能发生在链条的哪一环，以及对应的干预点。
 
-[![图 2：PM 失败链与干预点](/images/prospective_memory/fig2_failure_chain.svg)](/images/prospective_memory/fig2_failure_chain.svg)
+[![图 2：PM 失败链与干预点](/images/prospective_memory/fig2_failure_chain.png)](/images/prospective_memory/fig2_failure_chain.png)
 
 *图 2：PM 失败链与干预点。失败可能发生在形成、保持、检测、检索、协调或执行的任一环；干预应针对断点，而不是笼统地“提高注意力”。（原创示意）*
 
@@ -207,13 +207,13 @@ Bowden、Visser 和 Loft（2017）在模拟驾驶研究中发现：在正常条�
 
 先看一条简化的研究时间线：
 
-[![图 3：前瞻性记忆研究的关键节点](/images/prospective_memory/fig3_timeline.svg)](/images/prospective_memory/fig3_timeline.svg)
+[![图 3：前瞻性记忆研究的关键节点](/images/prospective_memory/fig3_timeline.png)](/images/prospective_memory/fig3_timeline.png)
 
 *图 3：前瞻性记忆研究的关键节点。从“记得去记得”到四阶段模型、PAM、MPT 与证据累积理论。（据 Bayen et al., in press 及相关原始文献整理）*
 
 三种代表性观点可以这样概括：
 
-[![图 4：三种理论对 PM 代价的解释](/images/prospective_memory/fig4_theories.svg)](/images/prospective_memory/fig4_theories.svg)
+[![图 4：三种理论对 PM 代价的解释](/images/prospective_memory/fig4_theories.png)](/images/prospective_memory/fig4_theories.png)
 
 *图 4：PAM、多过程观点与延迟理论对 PM 代价的不同解释。（原创示意）*
 
@@ -256,7 +256,7 @@ MPT 模型利用所有反应类别，把 PM 命中拆成几个参数：前瞻成
 
 Kliegel 等人（2002）提出的**四阶段模型**，是 PM 研究中最常用的描述性框架：
 
-[![图 5：前瞻性记忆的四阶段模型](/images/prospective_memory/fig5_phase_model.svg)](/images/prospective_memory/fig5_phase_model.svg)
+[![图 5：前瞻性记忆的四阶段模型](/images/prospective_memory/fig5_phase_model.png)](/images/prospective_memory/fig5_phase_model.png)
 
 *图 5：前瞻性记忆的四阶段模型。启动阶段可进一步细分为线索检测、意图检索和任务协调。（原创示意，据 Kliegel et al., 2002, 2011 重绘）*
 
@@ -296,7 +296,7 @@ Kliegel 等人（2002）提出的**四阶段模型**，是 PM 研究中最常用
 
 更清晰的框架是：**一个主分类轴 + 一组正交维度**。
 
-[![图 6：PM 任务的分类框架](/images/prospective_memory/fig6_taxonomy.svg)](/images/prospective_memory/fig6_taxonomy.svg)
+[![图 6：PM 任务的分类框架](/images/prospective_memory/fig6_taxonomy.png)](/images/prospective_memory/fig6_taxonomy.png)
 
 *图 6：PM 任务的分类框架。主分类轴只保留触发线索类型，其余属性作为正交维度。（原创）*
 
