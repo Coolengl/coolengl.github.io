@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="700" viewBox="0 0 1250 700" font-family="'Noto Sans SC','Microsoft YaHei',Arial,sans-serif">
+  <defs>
+    <marker id="arrow4" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/>
+    </marker>
+  </defs>
+  <rect width="1250" height="700" rx="14" fill="#ffffff" stroke="#dbe2ea"/>
+  <text x="40" y="52" font-size="24" font-weight="700" fill="#111827">PM 失败链与干预点</text>
+  <text x="40" y="82" font-size="15" fill="#6b7280">“我明明记得，却还是没做”——把失败拆到链条上，才能找到该改哪一环</text>
+
+  <rect x="50" y="130" width="175" height="110" rx="10" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="65" y="165" font-size="16" font-weight="700" fill="#1d4ed8">① 意图形成</text>
+  <text x="65" y="195" font-size="13" fill="#1e3a8a">决定做什么、</text>
+  <text x="65" y="216" font-size="13" fill="#1e3a8a">何时做</text>
+
+  <rect x="245" y="130" width="175" height="110" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="260" y="165" font-size="16" font-weight="700" fill="#334155">② 意图保持</text>
+  <text x="260" y="195" font-size="13" fill="#334155">延迟期间</text>
+  <text x="260" y="216" font-size="13" fill="#334155">维持意图</text>
+
+  <rect x="440" y="130" width="175" height="110" rx="10" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="455" y="165" font-size="16" font-weight="700" fill="#9a3412">③ 线索检测</text>
+  <text x="455" y="195" font-size="13" fill="#7c2d12">注意到</text>
+  <text x="455" y="216" font-size="13" fill="#7c2d12">环境中的线索</text>
+
+  <rect x="635" y="130" width="175" height="110" rx="10" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="650" y="165" font-size="16" font-weight="700" fill="#991b1b">④ 意图检索</text>
+  <text x="650" y="195" font-size="13" fill="#7f1d1d">由线索想起</text>
+  <text x="650" y="216" font-size="13" fill="#7f1d1d">“我还有件事”</text>
+
+  <rect x="830" y="130" width="175" height="110" rx="10" fill="#f5f3ff" stroke="#c4b5fd"/>
+  <text x="845" y="165" font-size="16" font-weight="700" fill="#6d28d9">⑤ 任务协调</text>
+  <text x="845" y="195" font-size="13" fill="#4c1d95">与进行中任务</text>
+  <text x="845" y="216" font-size="13" fill="#4c1d95">协调、切换</text>
+
+  <rect x="1025" y="130" width="175" height="110" rx="10" fill="#ecfdf5" stroke="#86efac"/>
+  <text x="1040" y="165" font-size="16" font-weight="700" fill="#047857">⑥ 执行</text>
+  <text x="1040" y="195" font-size="13" fill="#065f46">完成</text>
+  <text x="1040" y="216" font-size="13" fill="#065f46">预定动作</text>
+
+  <text x="65" y="285" font-size="13" fill="#b91c1c">计划模糊</text>
+  <text x="65" y="307" font-size="13" fill="#b91c1c">没有触发条件</text>
+
+  <text x="260" y="285" font-size="13" fill="#b91c1c">被打断后遗忘</text>
+  <text x="260" y="307" font-size="13" fill="#b91c1c">意图没保持住</text>
+
+  <text x="455" y="285" font-size="13" fill="#b91c1c">线索不凸显</text>
+  <text x="455" y="307" font-size="13" fill="#b91c1c">注意负荷过高</text>
+
+  <text x="650" y="285" font-size="13" fill="#b91c1c">看到线索</text>
+  <text x="650" y="307" font-size="13" fill="#b91c1c">但没想起任务</text>
+
+  <text x="845" y="285" font-size="13" fill="#b91c1c">与 ongoing task</text>
+  <text x="845" y="307" font-size="13" fill="#b91c1c">发生冲突</text>
+
+  <text x="1040" y="285" font-size="13" fill="#b91c1c">动作错误</text>
+  <text x="1040" y="307" font-size="13" fill="#b91c1c">或重复执行</text>
+
+  <line x1="137" y1="430" x2="137" y2="330" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow4)"/>
+  <line x1="332" y1="430" x2="332" y2="330" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow4)"/>
+  <line x1="527" y1="430" x2="527" y2="330" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow4)"/>
+  <line x1="722" y1="430" x2="722" y2="330" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow4)"/>
+  <line x1="917" y1="430" x2="917" y2="330" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow4)"/>
+  <line x1="1112" y1="430" x2="1112" y2="330" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow4)"/>
+
+  <rect x="50" y="430" width="175" height="115" rx="10" fill="#ecfdf5" stroke="#86efac"/>
+  <text x="65" y="462" font-size="14" font-weight="700" fill="#047857">执行意图</text>
+  <text x="65" y="487" font-size="12.5" fill="#065f46">“如果…就…”</text>
+  <text x="65" y="508" font-size="12.5" fill="#065f46">把线索与动作绑定</text>
+
+  <rect x="245" y="430" width="175" height="115" rx="10" fill="#ecfdf5" stroke="#86efac"/>
+  <text x="260" y="462" font-size="14" font-weight="700" fill="#047857">外部提醒</text>
+  <text x="260" y="487" font-size="12.5" fill="#065f46">检查单 / 闹钟</text>
+  <text x="260" y="508" font-size="12.5" fill="#065f46">不要只靠脑子记</text>
+
+  <rect x="440" y="430" width="175" height="115" rx="10" fill="#ecfdf5" stroke="#86efac"/>
+  <text x="455" y="462" font-size="14" font-weight="700" fill="#047857">提高线索凸显性</text>
+  <text x="455" y="487" font-size="12.5" fill="#065f46">情境线索</text>
+  <text x="455" y="508" font-size="12.5" fill="#065f46">颜色 / 位置标记</text>
+
+  <rect x="635" y="430" width="175" height="115" rx="10" fill="#ecfdf5" stroke="#86efac"/>
+  <text x="650" y="462" font-size="14" font-weight="700" fill="#047857">复述与想象</text>
+  <text x="650" y="487" font-size="12.5" fill="#065f46">未来事件模拟</text>
+  <text x="650" y="508" font-size="12.5" fill="#065f46">预演“到时会怎么做”</text>
+
+  <rect x="830" y="430" width="175" height="115" rx="10" fill="#ecfdf5" stroke="#86efac"/>
+  <text x="845" y="462" font-size="14" font-weight="700" fill="#047857">减少切换缝隙</text>
+  <text x="845" y="487" font-size="12.5" fill="#065f46">交接复诵</text>
+  <text x="845" y="508" font-size="12.5" fill="#065f46">给状态转换加检查点</text>
+
+  <rect x="1025" y="430" width="175" height="115" rx="10" fill="#ecfdf5" stroke="#86efac"/>
+  <text x="1040" y="462" font-size="14" font-weight="700" fill="#047857">团队复诵 / 核对</text>
+  <text x="1040" y="487" font-size="12.5" fill="#065f46">强制功能</text>
+  <text x="1040" y="508" font-size="12.5" fill="#065f46">让漏做变得困难</text>
+
+  <rect x="50" y="600" width="1150" height="54" rx="10" fill="#f1f5f9"/>
+  <text x="625" y="624" font-size="14" fill="#334155" text-anchor="middle">PM 失败很少是“记性差”，更常是链条上某一环断了；</text>
+  <text x="625" y="645" font-size="14" fill="#334155" text-anchor="middle">干预应针对断点，而不是笼统地“提高注意力”。</text>
+
+  <text x="40" y="682" font-size="12" fill="#94a3b8">原创示意；阶段划分参考 Kliegel et al. (2002)，干预策略参考实现意图、外部记忆辅助与安全关键领域研究。</text>
+</svg>

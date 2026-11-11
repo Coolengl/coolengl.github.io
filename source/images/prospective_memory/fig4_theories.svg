@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="600" viewBox="0 0 1150 600" font-family="'Noto Sans SC','Microsoft YaHei',Arial,sans-serif">
+  <rect width="1150" height="600" rx="14" fill="#ffffff" stroke="#dbe2ea"/>
+  <text x="40" y="52" font-size="24" font-weight="700" fill="#111827">三种理论：PM 成功是否依赖持续注意？</text>
+  <text x="40" y="82" font-size="15" fill="#6b7280">争论的核心不是“要不要注意”，而是“PM 代价从何而来、是否不可避免”</text>
+
+  <rect x="50" y="115" width="330" height="380" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <rect x="50" y="115" width="330" height="54" rx="12" fill="#e0e7ff" stroke="#818cf8"/>
+  <text x="70" y="149" font-size="17" font-weight="700" fill="#3730a3">PAM 理论（Smith, 2003）</text>
+  <text x="70" y="210" font-size="15" font-weight="700" fill="#1e293b">预备注意监控</text>
+  <text x="70" y="240" font-size="13.5" fill="#334155">• 只要存在 PM 意图，就需要</text>
+  <text x="82" y="262" font-size="13.5" fill="#334155">把注意资源分配给环境监控</text>
+  <text x="70" y="292" font-size="13.5" fill="#334155">• 监控在情境转换点启动</text>
+  <text x="70" y="322" font-size="13.5" fill="#334155">• PM 代价不可避免</text>
+  <text x="70" y="370" font-size="14" font-weight="700" fill="#3730a3">核心预测</text>
+  <text x="70" y="396" font-size="13.5" fill="#334155">ongoing task 的准确率</text>
+  <text x="70" y="418" font-size="13.5" fill="#334155">或反应时受损</text>
+
+  <rect x="410" y="115" width="330" height="380" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <rect x="410" y="115" width="330" height="54" rx="12" fill="#ffedd5" stroke="#fb923c"/>
+  <text x="430" y="149" font-size="17" font-weight="700" fill="#9a3412">多过程观点（McDaniel &amp; Einstein, 2000）</text>
+  <text x="430" y="210" font-size="15" font-weight="700" fill="#1e293b">两条通路</text>
+  <text x="430" y="240" font-size="13.5" fill="#334155">• 策略监控：类似 PAM</text>
+  <text x="430" y="270" font-size="13.5" fill="#334155">• 自发检索：focal / distinct</text>
+  <text x="442" y="292" font-size="13.5" fill="#334155">线索可自动把意图带回意识</text>
+  <text x="430" y="322" font-size="13.5" fill="#334155">• 动态多过程：监控水平随</text>
+  <text x="442" y="344" font-size="13.5" fill="#334155">时间与情境涨落</text>
+  <text x="430" y="390" font-size="14" font-weight="700" fill="#9a3412">核心预测</text>
+  <text x="430" y="416" font-size="13.5" fill="#334155">聚焦线索下 PM 代价可很小</text>
+
+  <rect x="770" y="115" width="330" height="380" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <rect x="770" y="115" width="330" height="54" rx="12" fill="#dcfce7" stroke="#4ade80"/>
+  <text x="790" y="149" font-size="17" font-weight="700" fill="#047857">延迟理论（Heathcote et al., 2015）</text>
+  <text x="790" y="210" font-size="15" font-weight="700" fill="#1e293b">证据累积视角</text>
+  <text x="790" y="240" font-size="13.5" fill="#334155">• DDM / LBA：漂移率、阈值、</text>
+  <text x="802" y="262" font-size="13.5" fill="#334155">非决策时间</text>
+  <text x="790" y="292" font-size="13.5" fill="#334155">• 加入 PM 任务后漂移率未受损，</text>
+  <text x="802" y="314" font-size="13.5" fill="#334155">阈值 / 非决策时间变化</text>
+  <text x="790" y="344" font-size="13.5" fill="#334155">• 策略性延迟反应，为 PM</text>
+  <text x="802" y="366" font-size="13.5" fill="#334155">证据累积争取时间</text>
+  <text x="790" y="410" font-size="14" font-weight="700" fill="#047857">核心预测</text>
+  <text x="790" y="436" font-size="13.5" fill="#334155">PM 代价 ≠ 注意资源竞争</text>
+
+  <rect x="50" y="515" width="1050" height="44" rx="10" fill="#f1f5f9"/>
+  <text x="575" y="543" font-size="14" fill="#334155" text-anchor="middle">争论焦点：PM 代价究竟来自注意资源竞争，还是来自反应策略？</text>
+  <text x="40" y="585" font-size="12" fill="#94a3b8">原创示意；观点分别据 Smith (2003)、McDaniel &amp; Einstein (2000)、Heathcote et al. (2015)。</text>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="500" viewBox="0 0 1250 500" font-family="'Noto Sans SC','Microsoft YaHei',Arial,sans-serif">
+  <defs>
+    <marker id="arrow6" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <rect width="1250" height="500" rx="14" fill="#ffffff" stroke="#dbe2ea"/>
+  <text x="40" y="52" font-size="24" font-weight="700" fill="#111827">前瞻性记忆研究的关键节点</text>
+  <text x="40" y="82" font-size="15" fill="#6b7280">从“记得去记得”到四阶段模型、PAM、MPT 与证据累积理论</text>
+
+  <line x1="70" y1="250" x2="1190" y2="250" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow6)"/>
+
+  <circle cx="100" cy="250" r="6" fill="#4f46e5"/>
+  <line x1="100" y1="244" x2="100" y2="220" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="100" y="210" font-size="15" font-weight="700" fill="#4338ca" text-anchor="middle">1986</text>
+  <text x="100" y="188" font-size="13.5" fill="#1e293b" text-anchor="middle">Craik</text>
+  <text x="100" y="168" font-size="12" fill="#64748b" text-anchor="middle">“记得去记得”</text>
+  <text x="100" y="150" font-size="12" fill="#64748b" text-anchor="middle">自发起记忆</text>
+
+  <circle cx="250" cy="250" r="6" fill="#4f46e5"/>
+  <line x1="250" y1="256" x2="250" y2="280" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="250" y="298" font-size="15" font-weight="700" fill="#4338ca" text-anchor="middle">1990</text>
+  <text x="250" y="322" font-size="13.5" fill="#1e293b" text-anchor="middle">Einstein &amp; McDaniel</text>
+  <text x="250" y="344" font-size="12" fill="#64748b" text-anchor="middle">经典事件型范式</text>
+  <text x="250" y="364" font-size="12" fill="#64748b" text-anchor="middle">实验室研究起步</text>
+
+  <circle cx="400" cy="250" r="6" fill="#0891b2"/>
+  <line x1="400" y1="244" x2="400" y2="220" stroke="#0891b2" stroke-width="1.5"/>
+  <text x="400" y="210" font-size="15" font-weight="700" fill="#0e7490" text-anchor="middle">1999</text>
+  <text x="400" y="188" font-size="13.5" fill="#1e293b" text-anchor="middle">Rendell &amp; Thomson</text>
+  <text x="400" y="168" font-size="12" fill="#64748b" text-anchor="middle">年龄—PM 悖论</text>
+  <text x="400" y="150" font-size="12" fill="#64748b" text-anchor="middle">实验室 vs 自然情境</text>
+
+  <circle cx="550" cy="250" r="6" fill="#4f46e5"/>
+  <line x1="550" y1="256" x2="550" y2="280" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="550" y="298" font-size="15" font-weight="700" fill="#4338ca" text-anchor="middle">2002</text>
+  <text x="550" y="322" font-size="13.5" fill="#1e293b" text-anchor="middle">Kliegel et al.</text>
+  <text x="550" y="344" font-size="12" fill="#64748b" text-anchor="middle">四阶段模型</text>
+  <text x="550" y="364" font-size="12" fill="#64748b" text-anchor="middle">形成—保持—启动—执行</text>
+
+  <circle cx="700" cy="250" r="6" fill="#0891b2"/>
+  <line x1="700" y1="244" x2="700" y2="220" stroke="#0891b2" stroke-width="1.5"/>
+  <text x="700" y="210" font-size="15" font-weight="700" fill="#0e7490" text-anchor="middle">2003</text>
+  <text x="700" y="188" font-size="13.5" fill="#1e293b" text-anchor="middle">Smith</text>
+  <text x="700" y="168" font-size="12" fill="#64748b" text-anchor="middle">PAM 理论</text>
+  <text x="700" y="150" font-size="12" fill="#64748b" text-anchor="middle">代价范式</text>
+
+  <circle cx="850" cy="250" r="6" fill="#4f46e5"/>
+  <line x1="850" y1="256" x2="850" y2="280" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="850" y="298" font-size="15" font-weight="700" fill="#4338ca" text-anchor="middle">2004</text>
+  <text x="850" y="322" font-size="13.5" fill="#1e293b" text-anchor="middle">Smith &amp; Bayen</text>
+  <text x="850" y="344" font-size="12" fill="#64748b" text-anchor="middle">MPT 模型</text>
+  <text x="850" y="364" font-size="12" fill="#64748b" text-anchor="middle">分离前瞻 / 回溯成分</text>
+
+  <circle cx="1000" cy="250" r="6" fill="#0891b2"/>
+  <line x1="1000" y1="244" x2="1000" y2="220" stroke="#0891b2" stroke-width="1.5"/>
+  <text x="1000" y="210" font-size="15" font-weight="700" fill="#0e7490" text-anchor="middle">2015</text>
+  <text x="1000" y="188" font-size="13.5" fill="#1e293b" text-anchor="middle">Heathcote et al.</text>
+  <text x="1000" y="168" font-size="12" fill="#64748b" text-anchor="middle">延迟理论</text>
+  <text x="1000" y="150" font-size="12" fill="#64748b" text-anchor="middle">证据累积视角</text>
+
+  <circle cx="1150" cy="250" r="6" fill="#4f46e5"/>
+  <line x1="1150" y1="256" x2="1150" y2="280" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="1150" y="298" font-size="15" font-weight="700" fill="#4338ca" text-anchor="middle">2018</text>
+  <text x="1150" y="322" font-size="13.5" fill="#1e293b" text-anchor="middle">Strickland et al.</text>
+  <text x="1150" y="344" font-size="12" fill="#64748b" text-anchor="middle">PM 决策控制模型</text>
+  <text x="1150" y="364" font-size="12" fill="#64748b" text-anchor="middle">主动 + 反应控制</text>
+
+  <text x="40" y="440" font-size="12" fill="#94a3b8">据 Bayen et al. (in press) 及相关原始文献整理；节点选择侧重理论 / 方法学转折，不代表全部重要研究。</text>
+</svg>

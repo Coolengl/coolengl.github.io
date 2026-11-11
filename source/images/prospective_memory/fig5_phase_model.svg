@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="620" viewBox="0 0 1150 620" font-family="'Noto Sans SC','Microsoft YaHei',Arial,sans-serif">
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrow2b" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <rect width="1150" height="620" rx="14" fill="#ffffff" stroke="#dbe2ea"/>
+  <text x="40" y="52" font-size="24" font-weight="700" fill="#111827">前瞻性记忆的四阶段模型</text>
+  <text x="40" y="82" font-size="15" fill="#6b7280">从意图形成到执行，每个阶段有不同的认知需求；失败可能发生在任何一环</text>
+
+  <rect x="55" y="100" width="1040" height="46" rx="10" fill="#eef2ff" stroke="#c7d2fe"/>
+  <text x="575" y="129" font-size="15" fill="#3730a3" text-anchor="middle">元认知 / 动机：调节任务需求与可用资源的匹配</text>
+
+  <rect x="55" y="170" width="230" height="115" rx="10" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="75" y="205" font-size="17" font-weight="700" fill="#1d4ed8">① 意图形成</text>
+  <text x="75" y="235" font-size="14" fill="#1e3a8a">形成计划：做什么、何时做</text>
+  <text x="75" y="263" font-size="13" fill="#3b82f6">认知需求：规划 planning</text>
+
+  <rect x="310" y="170" width="250" height="115" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="330" y="205" font-size="17" font-weight="700" fill="#334155">② 意图保持</text>
+  <text x="330" y="235" font-size="14" fill="#334155">延迟期间维持意图</text>
+  <text x="330" y="255" font-size="14" fill="#334155">不被 ongoing task 冲掉</text>
+  <text x="330" y="277" font-size="12" fill="#64748b">认知需求：储存 / 监控</text>
+
+  <rect x="585" y="170" width="310" height="115" rx="10" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="605" y="205" font-size="17" font-weight="700" fill="#9a3412">③ 意图启动</text>
+  <text x="605" y="235" font-size="14" fill="#7c2d12">在正确时机把意图带回意识</text>
+  <text x="605" y="263" font-size="13" fill="#c2410c">认知需求：抑制 / 注意控制</text>
+
+  <rect x="920" y="170" width="175" height="115" rx="10" fill="#ecfdf5" stroke="#86efac"/>
+  <text x="940" y="205" font-size="17" font-weight="700" fill="#047857">④ 意图执行</text>
+  <text x="940" y="235" font-size="14" fill="#065f46">按计划完成动作</text>
+  <text x="940" y="263" font-size="13" fill="#059669">认知需求：任务切换</text>
+
+  <text x="585" y="307" font-size="13" fill="#9a3412">启动阶段可细分为：</text>
+  <rect x="585" y="318" width="95" height="50" rx="8" fill="#ffedd5" stroke="#fb923c"/>
+  <text x="632" y="348" font-size="14" fill="#9a3412" text-anchor="middle">线索检测</text>
+  <rect x="690" y="318" width="95" height="50" rx="8" fill="#ffedd5" stroke="#fb923c"/>
+  <text x="737" y="348" font-size="14" fill="#9a3412" text-anchor="middle">意图检索</text>
+  <rect x="795" y="318" width="100" height="50" rx="8" fill="#ffedd5" stroke="#fb923c"/>
+  <text x="845" y="348" font-size="14" fill="#9a3412" text-anchor="middle">任务协调</text>
+  <line x1="682" y1="343" x2="687" y2="343" stroke="#fb923c" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="787" y1="343" x2="792" y2="343" stroke="#fb923c" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <rect x="55" y="430" width="1040" height="56" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="575" y="454" font-size="15" fill="#334155" text-anchor="middle">可用认知资源：工作记忆 · 执行功能 · 回溯记忆 · 注意控制</text>
+  <text x="575" y="475" font-size="13" fill="#64748b" text-anchor="middle">资源随年龄、神经发育、临床状态与当下负荷而变化</text>
+
+  <line x1="170" y1="430" x2="170" y2="293" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow2b)"/>
+  <line x1="435" y1="430" x2="435" y2="293" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow2b)"/>
+  <line x1="740" y1="430" x2="740" y2="376" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow2b)"/>
+  <line x1="1007" y1="430" x2="1007" y2="293" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow2b)"/>
+
+  <rect x="55" y="512" width="1040" height="46" rx="10" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="575" y="540" font-size="14" fill="#991b1b" text-anchor="middle">需求—资源失配 → PM 失败：不是笼统的“能力下降”，而是某一阶段的认知需求超出了可用资源</text>
+
+  <text x="40" y="595" font-size="12" fill="#94a3b8">原创示意，据 Kliegel et al. (2002) 四阶段模型与 Kliegel et al. (2011) 扩展模型重绘；不复制原文图像。</text>
+</svg>

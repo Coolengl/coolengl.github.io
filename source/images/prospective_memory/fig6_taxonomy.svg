@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="650" viewBox="0 0 1150 650" font-family="'Noto Sans SC','Microsoft YaHei',Arial,sans-serif">
+  <rect width="1150" height="650" rx="14" fill="#ffffff" stroke="#dbe2ea"/>
+  <text x="40" y="52" font-size="24" font-weight="700" fill="#111827">PM 任务的分类框架</text>
+  <text x="40" y="82" font-size="15" fill="#6b7280">主分类轴只保留“触发线索类型”；其余属性作为正交维度，不要与类型并列</text>
+
+  <rect x="50" y="115" width="440" height="430" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="70" y="150" font-size="17" font-weight="700" fill="#1e293b">主分类轴：触发线索类型</text>
+
+  <rect x="70" y="175" width="400" height="90" rx="10" fill="#e0e7ff" stroke="#818cf8"/>
+  <text x="90" y="208" font-size="16" font-weight="700" fill="#3730a3">时间型</text>
+  <text x="90" y="234" font-size="13" fill="#4338ca">内部时间点、时间窗口或经过时长触发</text>
+  <text x="90" y="254" font-size="12" fill="#6366f1">例：下午 3 点打电话；服药后 30 分钟测血糖</text>
+
+  <rect x="70" y="280" width="400" height="90" rx="10" fill="#ffedd5" stroke="#fb923c"/>
+  <text x="90" y="313" font-size="16" font-weight="700" fill="#9a3412">事件型（含活动型子类）</text>
+  <text x="90" y="339" font-size="13" fill="#7c2d12">外部事件、活动完成或状态转换触发</text>
+  <text x="90" y="359" font-size="12" fill="#c2410c">例：看到药店买维生素；写完报告发文件</text>
+
+  <rect x="70" y="385" width="400" height="90" rx="10" fill="#dcfce7" stroke="#4ade80"/>
+  <text x="90" y="418" font-size="16" font-weight="700" fill="#047857">复合条件型（复杂事件型）</text>
+  <text x="90" y="444" font-size="13" fill="#065f46">多个条件联合满足才触发</text>
+  <text x="90" y="464" font-size="12" fill="#059669">例：下雨且要出门，就带伞</text>
+
+  <text x="70" y="505" font-size="12.5" fill="#64748b">活动型标为事件型的子类；状态型边界模糊，可并入事件型或活动型。</text>
+  <text x="70" y="525" font-size="12.5" fill="#64748b">复合条件型可单列，但应说明它是事件型的复杂形式。</text>
+
+  <rect x="520" y="115" width="580" height="430" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="540" y="150" font-size="17" font-weight="700" fill="#1e293b">正交维度：描述任何一个 PM 任务</text>
+
+  <rect x="540" y="175" width="170" height="80" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="552" y="203" font-size="14" font-weight="700" fill="#334155">重复性</text>
+  <text x="552" y="228" font-size="12" fill="#64748b">单次 / 周期重复</text>
+
+  <rect x="730" y="175" width="170" height="80" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="742" y="203" font-size="14" font-weight="700" fill="#334155">线索聚焦性</text>
+  <text x="742" y="228" font-size="12" fill="#64748b">focal / non-focal</text>
+
+  <rect x="920" y="175" width="170" height="80" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="932" y="203" font-size="14" font-weight="700" fill="#334155">线索凸显性</text>
+  <text x="932" y="228" font-size="12" fill="#64748b">distinct / 不醒目</text>
+
+  <rect x="540" y="275" width="170" height="80" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="552" y="303" font-size="14" font-weight="700" fill="#334155">监测方式</text>
+  <text x="552" y="328" font-size="12" fill="#64748b">自我发起 / 外部提示</text>
+
+  <rect x="730" y="275" width="170" height="80" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="742" y="303" font-size="14" font-weight="700" fill="#334155">注意负荷</text>
+  <text x="742" y="328" font-size="12" fill="#64748b">低 / 高</text>
+
+  <rect x="920" y="275" width="170" height="80" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="932" y="303" font-size="14" font-weight="700" fill="#334155">意图层级</text>
+  <text x="932" y="328" font-size="12" fill="#64748b">简单动作 / 长期目标</text>
+
+  <rect x="540" y="375" width="170" height="80" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="552" y="403" font-size="14" font-weight="700" fill="#334155">协调复杂度</text>
+  <text x="552" y="428" font-size="12" fill="#64748b">单一动作 / 多活动</text>
+
+  <rect x="730" y="375" width="170" height="80" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="742" y="403" font-size="14" font-weight="700" fill="#334155">风险等级</text>
+  <text x="742" y="428" font-size="12" fill="#64748b">低后果 / 安全关键</text>
+
+  <rect x="920" y="375" width="170" height="80" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="932" y="403" font-size="14" font-weight="700" fill="#334155">生命周期</text>
+  <text x="932" y="428" font-size="12" fill="#64748b">待执行 / 完成 / 取消 / 过期</text>
+
+  <rect x="50" y="565" width="1050" height="48" rx="8" fill="#0f172a"/>
+  <text x="70" y="595" font-size="13" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace">task = { trigger_type, recurring, focal, distinct, monitoring, load, risk, lifecycle }</text>
+
+  <text x="40" y="638" font-size="12" fill="#94a3b8">原创框架：类型是主轴，其余是属性；这样才能避免“周期型”“注意力型”“安全型”混入同一层级。</text>
+</svg>

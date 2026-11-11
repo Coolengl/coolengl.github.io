@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" font-family="'Noto Sans SC','Microsoft YaHei',Arial,sans-serif">
+  <defs>
+    <marker id="arrow1" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1100" height="520" rx="14" fill="#ffffff" stroke="#dbe2ea"/>
+  <text x="40" y="52" font-size="24" font-weight="700" fill="#111827">经典事件型前瞻记忆范式</text>
+  <text x="40" y="82" font-size="15" fill="#6b7280">在持续进行的任务中嵌入一个未来意图；目标出现时，打断 ongoing task 并执行 PM 反应</text>
+
+  <rect x="55" y="120" width="300" height="160" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="75" y="155" font-size="18" font-weight="700" fill="#1e293b">① 进行中任务</text>
+  <text x="75" y="185" font-size="15" fill="#334155">词汇判断：这个词是真词吗？</text>
+  <text x="75" y="213" font-size="15" fill="#334155">TIGER → “是词”</text>
+  <text x="75" y="241" font-size="15" fill="#334155">TIGRE → “非词”</text>
+  <text x="75" y="269" font-size="14" fill="#64748b">持续数十至数百个试次</text>
+
+  <rect x="400" y="120" width="300" height="160" rx="12" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="420" y="155" font-size="18" font-weight="700" fill="#9a3412">② PM 目标出现</text>
+  <text x="420" y="185" font-size="15" fill="#7c2d12">预先指定的线索：</text>
+  <text x="420" y="213" font-size="15" fill="#7c2d12">字母 T / 单词 tortoise</text>
+  <text x="420" y="241" font-size="15" fill="#7c2d12">目标试次混在 ongoing 试次中</text>
+  <text x="420" y="269" font-size="14" fill="#9a3412">检测线索 → 想起意图</text>
+
+  <rect x="745" y="120" width="300" height="160" rx="12" fill="#ecfdf5" stroke="#86efac"/>
+  <text x="765" y="155" font-size="18" font-weight="700" fill="#047857">③ PM 反应</text>
+  <text x="765" y="185" font-size="15" fill="#065f46">按下 PM 反应键</text>
+  <text x="765" y="213" font-size="15" fill="#065f46">然后继续完成 ongoing 任务</text>
+  <text x="765" y="241" font-size="15" fill="#065f46">核心指标：PM 命中率</text>
+
+  <line x1="355" y1="200" x2="392" y2="200" stroke="#64748b" stroke-width="2" marker-end="url(#arrow1)"/>
+  <line x1="700" y1="200" x2="737" y2="200" stroke="#64748b" stroke-width="2" marker-end="url(#arrow1)"/>
+
+  <line x1="60" y1="350" x2="1040" y2="350" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="100" y1="342" x2="100" y2="358" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="300" y1="342" x2="300" y2="358" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="550" y1="342" x2="550" y2="358" stroke="#f59e0b" stroke-width="3"/>
+  <line x1="800" y1="342" x2="800" y2="358" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="1000" y1="342" x2="1000" y2="358" stroke="#94a3b8" stroke-width="2"/>
+
+  <text x="100" y="378" font-size="13" fill="#64748b" text-anchor="middle">试次 1</text>
+  <text x="300" y="378" font-size="13" fill="#64748b" text-anchor="middle">…</text>
+  <text x="550" y="378" font-size="13" fill="#b45309" text-anchor="middle" font-weight="700">目标试次</text>
+  <text x="800" y="378" font-size="13" fill="#64748b" text-anchor="middle">…</text>
+  <text x="1000" y="378" font-size="13" fill="#64748b" text-anchor="middle">试次 n</text>
+  <text x="550" y="330" font-size="13" fill="#b45309" text-anchor="middle">线索出现</text>
+
+  <rect x="55" y="400" width="990" height="64" rx="10" fill="#f1f5f9"/>
+  <text x="75" y="426" font-size="14" fill="#334155">测量指标：PM 命中率（目标试次中正确按下 PM 键的比例） · 进行中任务正确率 / 反应时</text>
+  <text x="75" y="449" font-size="14" fill="#334155">PM 代价：加入 PM 任务后，进行中任务的准确率或反应时发生了多大变化</text>
+
+  <text x="40" y="500" font-size="12" fill="#94a3b8">原创示意，据 Einstein &amp; McDaniel (1990) 的经典事件型范式重绘；不复制原文图像。</text>
+</svg>
