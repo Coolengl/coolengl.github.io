@@ -1,0 +1,63 @@
+# Public template. Copy complete node definitions from your own subscription.
+# Fill in all placeholder node fields, then save as config.yaml.
+# Japanese entry connects the Taiwanese exit through dialer-proxy.
+mixed-port: 17891
+allow-lan: false
+bind-address: 127.0.0.1
+mode: rule
+log-level: warning
+ipv6: false
+unified-delay: true
+tcp-concurrent: true
+tun:
+  enable: false
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  respect-rules: true
+  default-nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+  proxy-server-nameserver:
+  - https://dns.alidns.com/dns-query
+  - https://doh.pub/dns-query
+  nameserver:
+  - https://1.1.1.1/dns-query#台湾住宅出口
+  - https://8.8.8.8/dns-query#台湾住宅出口
+proxies:
+- name: 日本前置
+  type: vless
+  server: jp-entry.example.net
+  port: 443
+  uuid: REPLACE_UUID
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  client-fingerprint: safari
+  servername: REPLACE_TLS_SERVER_NAME
+  reality-opts:
+    public-key: REPLACE_REALITY_PUBLIC_KEY
+    short-id: REPLACE_REALITY_SHORT_ID
+- name: 台湾住宅出口
+  type: vless
+  server: tw-exit.example.net
+  port: 443
+  uuid: REPLACE_UUID
+  udp: true
+  packet-encoding: xudp
+  client-fingerprint: chrome
+  tls: true
+  skip-cert-verify: false
+  servername: REPLACE_TLS_SERVER_NAME
+  reality-opts:
+    public-key: REPLACE_REALITY_PUBLIC_KEY
+    short-id: REPLACE_REALITY_SHORT_ID
+  network: tcp
+  flow: xtls-rprx-vision
+  dialer-proxy: 日本前置
+proxy-groups: []
+rules:
+- MATCH,台湾住宅出口
